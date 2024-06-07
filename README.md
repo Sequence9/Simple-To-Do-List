@@ -1,6 +1,6 @@
 # My To-Do List
 
-This is a simple To-Do List app made with React and Flask. It has a dark theme and some cool animations.
+This is a simple To-Do List app made with React and Flask. It has a dark theme and some basic transition animations.
 
 ## Features
 
