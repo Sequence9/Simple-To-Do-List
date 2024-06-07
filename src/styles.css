@@ -1,0 +1,45 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #343a40; /* Dark gray background */
+  color: #f8f9fa; /* Light text color */
+}
+
+h1 {
+  color: #f8f9fa;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.card {
+  background-color: #495057;
+  color: #f8f9fa;
+  border: none;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.btn-primary, .btn-secondary, .btn-success, .btn-danger {
+  margin-right: 5px;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-danger:hover {
+  background-color: #007bff;
+  transform: scale(1.05);
+}
+
+input[type="text"] {
+  background-color: #495057;
+  color: #f8f9fa;
+  border: 1px solid #6c757d;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  background-color: #343a40;
+  color: #f8f9fa;
+  border-color: #007bff;
+}
